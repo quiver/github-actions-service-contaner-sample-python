@@ -2,8 +2,8 @@ import os
 import psycopg2
 
 def main():
-    host = os.environ.get("POSTGRES_HOST", "localhost")
-    port = os.environ.get("POSTGRES_PORT", "5432")
+    host = os.environ.get("POSTGRES_HOST")
+    port = os.environ.get("POSTGRES_PORT")
     user = "postgres"
     password = "postgres"
     dbname = "postgres"
